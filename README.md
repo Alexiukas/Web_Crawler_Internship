@@ -12,13 +12,15 @@ After this, web crawlers find hyperlinks to other URLs, and the next step is to 
 
 2) How to set it up?
 Here will be covered two ways to set up the program
-A) Using git bash
+A) Using git
 B) Using Intellij IDEA
 
 For both steps, first download ZIP file of this project and extract in your desired location.
-A) If you have git bash, open the extracted folder and run git bash here.
+
+A) If you have git, open the extracted folder and run: git bash here.
 After that, run this command:
 mvn exec:java
+
 B) If you want to run it using IDEA. Open Intellij and open extracted project folder.
 Project will be automaticly build by IDEA. After that, run the Main.Java class.
 
