@@ -18,7 +18,8 @@ B) Using Intellij IDEA
 For both steps, first download ZIP file of this project and extract in your desired location.
 
 A) If you have git, open the extracted folder and run: git bash here.
-After that, run this command:
+After that, run these commands:
+mvn clean install
 mvn exec:java
 
 B) If you want to run it using IDEA. Open Intellij and open extracted project folder.
